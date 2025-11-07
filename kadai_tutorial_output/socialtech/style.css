@@ -44,6 +44,14 @@ body {
    text-decoration: underline;
 }
 
+#menu-sp {
+  display: none;
+}
+
+#nav-sp {
+  display: none;
+}
+
 /* メインビジュアル*/
  #main-visual {
    position: relative;
@@ -710,8 +718,8 @@ footer {
 }
 
 /*スマホ用ナビを非表示*/
-  #nav-sp,
-  #menu-sp {
+  #nav-sp
+   {
     display: none;
 }
 #nav-sp .menu {

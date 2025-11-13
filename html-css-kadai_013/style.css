@@ -32,6 +32,13 @@ body {
   z-index: 100;
 }
 
+#nav-sp ul {
+  padding-left: 0;
+}
+
+#nav-sp li {
+  list-style: none;
+}
 /*閉じるボタンのスタイル*/
 #close {
   position: absolute;
@@ -50,11 +57,20 @@ body {
   color: #ffffff;
 }
 
+#nav-sp a:link {
+  color: #ffffff;
+}
+
+#nav-sp a:visited {
+  color: #ffffff;
+}
 #nav-sp a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-
+#nav-spa:active	{
+  color: #ffffff;
+}
 #nav-sp .menu {
   text-decoration: none;
   display: block;
